@@ -1,11 +1,12 @@
+import removeChildren from "./removeChildren";
 
-function loadHomeContent(root) {
-   const main = root.body.querySelector("main");
+function loadHomeContent(root, parent) {
+   removeChildren(parent);
 
    const welcome = root.createElement("h2");
    welcome.innerText = "Welcome!";
 
-   main.appendChild(welcome);
+   parent.appendChild(welcome);
 }
 
 export default loadHomeContent;

@@ -1,3 +1,5 @@
 import loadHomeContent from "./loadHomeContent";
 
-document.addEventListener("DOMContentLoaded", event => loadHomeContent(event.target));
+const main = document.body.querySelector("main");
+
+loadHomeContent(document, main);
