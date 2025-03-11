@@ -5,4 +5,7 @@ welcome.innerText = "Welcome!";
 const information = document.createElement("p");
 information.innerText = "This is a restaurant where you can order food.";
 
-export default [welcome, information];
+const orderingInformation = document.createElement("p");
+orderingInformation.innerText = "Click the Menu button above to start your order.";
+
+export default [welcome, information, orderingInformation,];
