@@ -19,7 +19,7 @@ function MenuItem(name, price, description) {
    descriptionElement.innerText = description;
    descriptionElement.classList.add("description");
 
-   loadContent(menuItem, [nameElement, priceElement, descriptionElement])
+   loadContent(menuItem, [nameElement, priceElement, descriptionElement]);
 
    return menuItem;
 }
