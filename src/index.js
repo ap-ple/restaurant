@@ -1,3 +1,5 @@
+import "./styles.css";
+
 import homeContent from "./homeContent";
 import menuContent from "./menuContent";
 import contactContent from "./contactContent";
