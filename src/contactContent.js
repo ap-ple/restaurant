@@ -1,5 +1,5 @@
 
-const contact = document.createElement("h2");
-contact.innerText = "Contact Us";
+const heading = document.createElement("h2");
+heading.innerText = "Contact Us";
 
-export default [contact,];
+export default [heading,];

@@ -1,5 +1,5 @@
 
-const menu = document.createElement("h2");
-menu.innerText = "Menu";
+const heading = document.createElement("h2");
+heading.innerText = "Menu";
 
-export default [menu,];
+export default [heading,];
