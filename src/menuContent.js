@@ -37,7 +37,7 @@ menu.appendChild(new MenuItem(
 );
 
 menu.appendChild(new MenuItem(
-   "Catch of the Day", "MP",
+   "Catch of the Day", "Market",
    "Fresh-caught bass, halibut, or cod, grilled or fried"
    )
 );
