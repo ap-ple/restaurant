@@ -64,8 +64,8 @@ body>main {
    display: flex;
    flex-flow: column;
    align-items: center;
-   gap: 24px;
    align-self: center;
+   gap: 24px;
    padding: 24px 48px;
    min-width: 200px;
    max-width: 400px;
