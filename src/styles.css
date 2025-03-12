@@ -51,3 +51,11 @@ body>header>nav>button:active {
 body>header>nav>button:focus-visible {
    z-index: 1;
 }
+
+body>main {
+   display: flex;
+   flex-flow: column;
+   align-items: center;
+   gap: 12px;
+   padding: 24px;
+}
