@@ -62,6 +62,6 @@ body>main {
    display: flex;
    flex-flow: column;
    align-items: center;
-   gap: 12px;
+   gap: 24px;
    padding: 24px;
 }
